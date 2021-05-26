@@ -1,0 +1,109 @@
+Communications & Networking
+Breadth	
+CS2107 Introduction to Information Security
+CS3103 Computer Networks Practice
+EE3131C Communication Systems
+Depth	
+CS4222 Wireless Networking
+CS4226 Internet Architecture
+EE4210 Network Protocols and Applications
+CS5223 Distributed Systems
+CS5321 Network Security
+EE5135 Digital Communications
+
+Embedded Computing
+Breadth	
+CG3207 Computer Architecture**
+CS2107 Introduction to Information Security
+CS3211 Parallel and Concurrent Programming
+EE3731C Signal Analytics
+Depth
+CS4222 Wireless Networking
+CS4223 Multi-Core Architectures
+EE4218 Embedded Hardware System Design
+EE4415 Integrated Digital Design
+CS5272 Embedded Software Design
+EE5903 Real-time Systems
+
+
+Intelligent Systems
+Breadth	
+CS3243 Introduction to Artificial Intelligence
+CS3244 Machine Learning
+EE3331C Feedback Control Systems
+Depth
+CS4244 Knowledge Representation and Reasoning
+CS4246 AI Planning and Decision Making
+CS4248 Natural Language Processing
+EE4305 Fuzzy/Neural Systems for Intelligent Robotics
+EE4308 Autonomous Robot Systems
+CS5242 Neural Networks & Deep Learning
+CS5339 Theory and Algorithms for Machine Learning
+EE5904 Neural Networks
+EE5907 Pattern Recognition
+
+
+Interactive Digital Media
+Breadth	
+CS2108 Introduction to Media Computing
+CS3240 Interaction Design
+CS3241 Computer Graphics
+CS3242 3D Modeling and Animation
+CS3247 Game Development
+CS3249 User Interface Development
+EE3731C Signal Analytics
+Depth
+CS4240 Interaction Design for Virtual and Augmented Reality
+CS4243 Computer Vision and Pattern Recognition
+CS4247 Graphics Rendering Techniques
+CS4249 Phenomena and Theories of Human-Computer Interaction
+CS4347 Sound and Music Computing
+CS4351 Real-Time Graphics
+EE4212 Computer Vision
+EE4604 Biological Perception in Digital Media
+EE4704 Image Processing and Analysis
+
+Large-Scale Computing
+Breadth
+CS2102 Database Systems
+CS3210 Parallel Computing
+CS3211 Parallel and Concurrent Programming
+CS3230 Design & Analysis of Algorithms**
+CS3235 Computer Security
+Depth
+CS3223 Database Systems Implementation
+CS4211 Formal methods for Software Engineering
+CS4221 Database Applications Design and Tuning
+CS4223 Multi-Core Architectures
+CS4224 Distributed Databases
+CS4231 Parallel & Distributed Algorithms
+EE4210 Network Protocols and Applications
+EE4218 Embedded Hardware System Design
+
+System-On-A-Chip Design
+Breadth	
+CG3207 Computer Architecture
+EE3104C Introduction to RF and Microwave Systems & Circuits
+EE3408C Integrated Analog Design
+Depth
+CS4223 Multi-Core Architectures
+EE4104 Microwave Circuits & Devices
+EE4112 Radio Frequency Design and Systems
+EE4218 Embedded Hardware System Design
+EE4415 Integrated Digital Design
+EE4505 Power Semiconductors Devices & ICs
+EE5518 VLSI Digital Circuit Design
+
+Internet of Things
+Breadth
+CS3237 Introduction to Internet of Things
+EE4211 Data Science for the Internet of Things
+EE4409 Modern Microelectronic Devices & Sensors
+Depth
+CS4222 Wireless Networking, or EE5132 Wireless & Sensor Networks
+EE4204 Computer Networks (For EE students only)
+EE4218 Embedded Hardware System Design
+CS3244 Machine Learning
+CS4276 IoT Security
+CS5272 Embedded Software Design
+EE4002D/EE4002R Design Capstone/Research Capstone, or CP4106 Computing Project – linked to IoT
