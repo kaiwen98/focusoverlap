@@ -4,7 +4,6 @@
 #include "commons.h"
 
 std::map<std::string, int> *name_to_id = new std::map<std::string, int>;
-
 void init_map() {
     name_to_id->insert(std::pair<std::string, int>("Communications & Networking", COMMS));
     name_to_id->insert(std::pair<std::string, int>("Embedded Computing", MBED));
@@ -13,6 +12,45 @@ void init_map() {
     name_to_id->insert(std::pair<std::string, int>("Large-Scale Computing", LARGE));
     name_to_id->insert(std::pair<std::string, int>("System-On-A-Chip Design", SOC));
     name_to_id->insert(std::pair<std::string, int>("Internet of Things", IOT));
+    
+}
+
+void get_overlapping_modules(Focus* one, Focus* two) {
+    std::cout   << "Comparing: " << std::endl
+                << one->focus_name << ", "
+                << two->focus_name << std::endl
+                << std::string(10, '*') << std::endl;
+    for (auto & i : *(one->breadth_modules)) {
+        for (auto & j : *(two->breadth_modules)) {
+            if (!i.compare(j)) {
+                std::cout << "Breadth:" << std::string(15, '>') + " "<< i << std::endl;
+            }
+        }
+    }
+
+    for (auto & i : *(one->depth_modules)) {
+        for (auto & j : *(two->depth_modules)) {
+            if (!i.compare(j)) {
+                std::cout << "Depth:" << std::string(15, '>') + " "<< i << std::endl;
+            }
+        }
+    }
+
+    for (auto & i : *(one->depth_modules)) {
+        for (auto & j : *(two->breadth_modules)) {
+            if (!i.compare(j)) {
+                std::cout << "BD:" << std::string(15, '>') + " "<< i << std::endl;
+            }
+        }
+    }
+
+    for (auto & i : *(two->depth_modules)) {
+        for (auto & j : *(one->breadth_modules)) {
+            if (!i.compare(j)) {
+                std::cout << "DB:" << std::string(15, '>') + " "<< i << std::endl;
+            }
+        }
+    }
 }
 
 int main() {
@@ -61,10 +99,19 @@ int main() {
             index++;    
             temp_focus = list_of_focii.at(index);
             temp_focus->focus_id = name_to_id->at(text);
+            temp_focus->focus_name = text;
         }
-
-
     }
     std::cout << *(list_of_focii.at(6)) << std::endl;
     std::cout << "done" << std::endl;
+
+    for (int i = 0; i < 7; i++) {
+        for (int j = 0; j < 7 && j != i; j++) {
+            get_overlapping_modules(
+                (list_of_focii.at(i)),
+                (list_of_focii.at(j))
+            );
+        }
+    }
+
 }

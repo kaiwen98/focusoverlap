@@ -4,7 +4,7 @@
 
 class Focus {
     public:
-        static std::vector<std::string> get_overlapping_modules; 
+        std::string focus_name;        
         int focus_id;
         int test;
         std::vector<std::string> *breadth_modules;

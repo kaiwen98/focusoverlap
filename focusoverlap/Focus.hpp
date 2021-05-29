@@ -10,18 +10,16 @@ Focus::Focus() {
 
 std::string to_string(std::vector<std::string> *input) {
     std::string output = ""; 
-    std::cout << input -> size() << std::endl;
     for (std::vector<std::string>::const_iterator i = input->begin(); i != input->end(); ++i) {
         output.append(*i + "\n");
-        std::cout << *i << std::endl;
     }
     return output;
 }
 
 std::ostream& operator<<(std::ostream& os, const Focus& focus) {
-    return os << "Focus: " << focus.focus_id << std::endl 
-                << "Breadth: " << std::endl << to_string(focus.breadth_modules) << std::endl
-                << "Depth: " << std::endl << to_string(focus.depth_modules) << std::endl;
+    return os   << "Focus: "    << focus.focus_name << ": "                             << focus.focus_id << std::endl 
+                << "Breadth: "  << std::endl        << to_string(focus.breadth_modules) << std::endl
+                << "Depth: "    << std::endl        << to_string(focus.depth_modules)   << std::endl;
 }
 
 #endif
